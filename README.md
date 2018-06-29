@@ -1,6 +1,6 @@
 # XGB_CNN_KEYSTROKES
 Using XGB: </br>
-import xgboost as xgb
+import xgboost as xgb  
 #To load XGB model
 model = xgb.Booster({'nthread': 4})  # init model
 model.load_model('model_name')  # load data
